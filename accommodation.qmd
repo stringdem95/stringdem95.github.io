@@ -1,0 +1,5 @@
+---
+title: "Accomodation"
+---
+
+This site will be about the accommodation.

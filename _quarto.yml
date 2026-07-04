@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Girl's Getaway Weekend"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - adventures.qmd 
+      - accommodation.qmd
+      - food.qmd
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true

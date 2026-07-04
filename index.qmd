@@ -1,0 +1,15 @@
+---
+title: "Let's do this!"
+---
+
+
+<div class="card text-white bg-primary mb-3">
+  <div class="card-body"><p class="card-text">Let's go on a weekend away!</p></div>
+</div>
+
+It's been a long year - and it's only July! 
+
+<div class="alert alert-dismissible alert-success">
+  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  <strong>Remember!</strong> Do not hesitate to make suggestions!
+</div>
