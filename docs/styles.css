@@ -1,1 +1,8 @@
 /* css styles */
+.thePlan.h3 {
+    display: list-item;
+}
+
+.collapsible-section {
+    display: inline;
+}

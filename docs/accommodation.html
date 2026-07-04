@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -73,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -94,12 +93,31 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Overview</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./adventures.html"> 
-<span class="menu-text">Adventures</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-adventures" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Adventures</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-adventures">    
+        <li>
+    <a class="dropdown-item" href="./pottery.html">
+ <span class="dropdown-text">Pottery</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./swimming.html">
+ <span class="dropdown-text">Swimming</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./dancing.html">
+ <span class="dropdown-text">Dancing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./games.html">
+ <span class="dropdown-text">Games</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./accommodation.html" aria-current="page"> 
 <span class="menu-text">Accomodation</span></a>
@@ -119,9 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

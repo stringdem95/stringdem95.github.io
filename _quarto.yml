@@ -5,10 +5,16 @@ project:
 website:
   title: "Girl's Getaway Weekend"
   navbar:
+    search: true
+    pinned: true
     left:
       - href: index.qmd
-        text: Home
-      - adventures.qmd 
+      - text: "Adventures"
+        menu: 
+          - pottery.qmd
+          - swimming.qmd
+          - dancing.qmd
+          - games.qmd
       - accommodation.qmd
       - food.qmd
 
@@ -16,4 +22,3 @@ format:
   html:
     theme: minty
     css: styles.css
-    toc: true

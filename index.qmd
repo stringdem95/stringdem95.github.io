@@ -1,13 +1,24 @@
 ---
-title: "Let's do this!"
+title: "Overview"
 ---
 
+# The Plan
 
-<div class="card text-white bg-primary mb-3">
-  <div class="card-body"><p class="card-text">Let's go on a weekend away!</p></div>
-</div>
+<details>
+  <summary class="collapsible-section"><div class="thePlan h3">What</div></summary>
+  <strong>A weekend away.</strong> Leave on Saturday - Have fun - Eventually return home of Sunday.
+</details>
+<hr/>
+<details>
+  <summary class="collapsible-section"><div class="thePlan h3">Where</div></summary>
+  <strong>Sunshine Coast.</strong> Close enough that it isn't annoying to get to and get home but far enough that it is a change in environment.
+</details>
+<hr/>
+<details>
+  <summary class="collapsible-section"><div class="thePlan h3">When</div></summary>
+  <strong>End of October - beginning November.</strong> Hopefully enough time to plan and budget but not too close to the End of year / Christmas chaos.
+</details>
 
-It's been a long year - and it's only July! 
 
 <div class="alert alert-dismissible alert-success">
   <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
