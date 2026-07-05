@@ -24,3 +24,5 @@ title: "Overview"
   <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
   <strong>Remember!</strong> Do not hesitate to make suggestions!
 </div>
+
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="https://open.spotify.com/playlist/5uwdCcZvOsJWnbdmml1ydm?si=GIdBRLPHTtacNOJ_QKupag&pi=KYkoE1B-QSuQi" role="button" aria-controls="offcanvasExample">Add songs to the playlist</a>
