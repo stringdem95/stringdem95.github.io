@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Girl's Getaway Weekend"
+  title: "Girl's Weekend"
   navbar:
     search: true
     pinned: true
@@ -17,6 +17,9 @@ website:
           - games.qmd
       - accommodation.qmd
       - food.qmd
+    tools:
+      - icon: spotify
+        href: https://open.spotify.com/playlist/5uwdCcZvOsJWnbdmml1ydm?si=GIdBRLPHTtacNOJ_QKupag&pi=KYkoE1B-QSuQi
 
 format:
   html:

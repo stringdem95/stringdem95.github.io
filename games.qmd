@@ -2,4 +2,7 @@
 title: "Games"
 ---
 
-This page will be about Gaming adventures.
+* Board games?
+* Card games?
+* Drinking games?
+Everybody loves games
