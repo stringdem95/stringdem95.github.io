@@ -20,6 +20,16 @@ website:
     tools:
       - icon: spotify
         href: https://open.spotify.com/playlist/5uwdCcZvOsJWnbdmml1ydm?si=GIdBRLPHTtacNOJ_QKupag&pi=KYkoE1B-QSuQi
+  announcement: 
+    icon: chat-heart
+    dismissable: true
+    content: "**Remember** - Do not hesitate to make suggestions!"
+    type: primary
+    position: below-navbar
+
+  comments:
+    giscus: 
+      repo: stringdem95/stringdem95.github.io
 
 format:
   html:

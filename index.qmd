@@ -2,11 +2,22 @@
 title: "Overview"
 ---
 
-# The Plan
-
 <details>
   <summary class="collapsible-section"><div class="thePlan h3">What</div></summary>
-  <strong>A weekend away.</strong> Leave on Saturday - Have fun - Eventually return home of Sunday.
+  <strong>A weekend away.</strong> Leave on Saturday - Have fun - Eventually return home of Sunday.  
+  <h4>Current Scheme</h4>
+  <strong>Saturday</strong>
+  <ul><li>Pottery before lunch.</li>
+  <li>Got out for lunch.</li>
+  <li>'Check-in' to accomodation.</li>
+  <li>Beach afternoon.</li>
+  <li>Head back to accommodation and either get ready to go out for dinner or settle in and order food in.</li> 
+  <li>Drinks / Games / Dancing</li></ul>
+  <strong>Sunday</strong>
+  <ul><li>Lazy morning! Sleep in and relax.</li>
+  <li>Eventually go out to brunch.</li>
+  <li><i>Eventually</i> head home.</li>
+  </ul>
 </details>
 <hr/>
 <details>
@@ -20,9 +31,9 @@ title: "Overview"
 </details>
 
 
-<div class="alert alert-dismissible alert-success">
-  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-  <strong>Remember!</strong> Do not hesitate to make suggestions!
-</div>
+# Let's create a weekend playlist 
 
-<a class="btn btn-primary" data-bs-toggle="offcanvas" href="https://open.spotify.com/playlist/5uwdCcZvOsJWnbdmml1ydm?si=GIdBRLPHTtacNOJ_QKupag&pi=KYkoE1B-QSuQi" role="button" aria-controls="offcanvasExample">Add songs to the playlist</a>
+Sometimes finding the right music can be stressful (well, it is for me) so why not push everyone else into creating a playlist that combines all our music.  
+Everyone wins, right?
+
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="https://open.spotify.com/playlist/5uwdCcZvOsJWnbdmml1ydm?si=GIdBRLPHTtacNOJ_QKupag&pi=KYkoE1B-QSuQi" role="button" aria-controls="offcanvasExample" style="width: stretch;">Add songs to the playlist</a>

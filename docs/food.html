@@ -133,6 +133,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="9719ad9d13ab051fad13c12b42bb56b0" class="alert alert-primary hidden"><i class="bi bi-chat-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Remember</strong> - Do not hesitate to make suggestions!</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -162,6 +165,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This page will be about Food.</p>
+<p>Where we eat will probably depend on where the accommodation is located.</p>
 
 
 
@@ -566,6 +570,35 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "stringdem95/stringdem95.github.io";
+    script.dataset.repoId = "R_kgDOTNbJJw";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDOTNbJJ84DAmtH";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 
 

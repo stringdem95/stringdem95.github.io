@@ -133,6 +133,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="9719ad9d13ab051fad13c12b42bb56b0" class="alert alert-primary hidden"><i class="bi bi-chat-heart quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Remember</strong> - Do not hesitate to make suggestions!</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -161,15 +164,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="the-plan" class="level1">
-<h1>The Plan</h1>
 <details>
 <summary class="collapsible-section">
 <div class="thePlan h3">
 What
 </div>
 </summary>
-<strong>A weekend away.</strong> Leave on Saturday - Have fun - Eventually return home of Sunday.
+<strong>A weekend away.</strong> Leave on Saturday - Have fun - Eventually return home of Sunday.<br>
+
+<h4 class="anchored">
+Current Scheme
+</h4>
+<strong>Saturday</strong>
+<ul>
+<li>
+Pottery before lunch.
+</li>
+<li>
+Got out for lunch.
+</li>
+<li>
+‘Check-in’ to accomodation.
+</li>
+<li>
+Beach afternoon.
+</li>
+<li>
+Head back to accommodation and either get ready to go out for dinner or settle in and order food in.
+</li>
+<li>
+Drinks / Games / Dancing
+</li>
+</ul>
+<strong>Sunday</strong>
+<ul>
+<li>
+Lazy morning! Sleep in and relax.
+</li>
+<li>
+Eventually go out to brunch.
+</li>
+<li>
+<i>Eventually</i> head home.
+</li>
+</ul>
 </details>
 <hr>
 <details>
@@ -189,10 +227,11 @@ When
 </summary>
 <strong>End of October - beginning November.</strong> Hopefully enough time to plan and budget but not too close to the End of year / Christmas chaos.
 </details>
-<div class="alert alert-dismissible alert-success">
-<p><button type="button" class="btn-close" data-bs-dismiss="alert"></button> <strong>Remember!</strong> Do not hesitate to make suggestions!</p>
-</div>
-<p><a class="btn btn-primary" data-bs-toggle="offcanvas" href="https://open.spotify.com/playlist/5uwdCcZvOsJWnbdmml1ydm?si=GIdBRLPHTtacNOJ_QKupag&amp;pi=KYkoE1B-QSuQi" role="button" aria-controls="offcanvasExample">Add songs to the playlist</a></p>
+<section id="lets-create-a-weekend-playlist" class="level1">
+<h1>Let’s create a weekend playlist</h1>
+<p>Sometimes finding the right music can be stressful (well, it is for me) so why not push everyone else into creating a playlist that combines all our music.<br>
+Everyone wins, right?</p>
+<p><a class="btn btn-primary" data-bs-toggle="offcanvas" href="https://open.spotify.com/playlist/5uwdCcZvOsJWnbdmml1ydm?si=GIdBRLPHTtacNOJ_QKupag&amp;pi=KYkoE1B-QSuQi" role="button" aria-controls="offcanvasExample" style="width: stretch;">Add songs to the playlist</a></p>
 
 
 </section>
@@ -598,6 +637,35 @@ When
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "stringdem95/stringdem95.github.io";
+    script.dataset.repoId = "R_kgDOTNbJJw";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDOTNbJJ84DAmtH";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 
 
