@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
+    browser: false
 
 website:
   title: "Girl's Weekend"
@@ -9,13 +12,13 @@ website:
     pinned: true
     left:
       - href: index.qmd
+      - accommodation.qmd
       - text: "Adventures"
         menu: 
           - pottery.qmd
           - swimming.qmd
           - dancing.qmd
           - games.qmd
-      - accommodation.qmd
       - food.qmd
     tools:
       - icon: spotify
